@@ -1,0 +1,139 @@
+html
+{
+    max-width: 100%;
+}
+body
+{
+    background-color: lightcyan;
+    margin: 0;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+
+header
+{
+    display: block;
+    max-width: 100%;
+}
+nav
+{
+    display: block;
+    background-color: lightcyan;
+    border-radius: 2em;
+    margin: 0;
+    padding: 0.5em;
+    max-width: 100%;
+}
+
+main
+{
+    display: block;
+    background-color: lightcyan;
+    border-radius: 2em;
+    margin: 0;
+    padding: 0 1em;
+    max-width: 100%;
+}
+
+nav div, main div
+{
+    display: inline-grid;
+    background-color: lightblue;
+    border: white 1px solid;
+    border-radius: 2em;
+    width: 12%;
+    height: max-content;
+    max-width: 100%;
+    padding: 0.5em 0;
+}
+
+nav p
+{
+    display: block;
+    background-color: hotpink;
+    border: blue 1px solid;
+    border-radius: 2em;
+    margin: 0.5em 10%;
+    font-weight: bold;
+    color: black;
+    max-width: 100%;
+}
+
+nav a
+{
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+main p
+{
+    display: block;
+    background-color: hotpink;
+    border: white 1px solid;
+    border-radius: 2em;
+    margin: 0.5em 10%;
+}
+
+main a
+{
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+nav .subject1, #subject1 p{
+    background-color: dodgerblue;
+}
+nav .subject2, #subject2 p{
+    background-color: mediumseagreen;
+}
+nav .subject3, #subject3 p{
+    background-color: orange;
+}
+nav .subject4, #subject4 p{
+    background-color: red;
+}
+nav .subject5, #subject5 p{
+    background-color: yellow;
+}
+nav .subject6, #subject6 p{
+    background-color: mediumpurple;
+}
+
+nav .subject7, #subject7 p{
+    background-color: darksalmon;
+}
+
+nav .subject8, #subject8 p{
+    background-color: turquoise;
+}
+
+
+
+p:hover{
+    background-color: mediumspringgreen !important;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+a[href="#"]
+{
+    cursor: not-allowed;
+    color: red;
+}
+
+.none, .none p, .none p:hover
+{
+    background-color: lightcyan;
+    border-color: lightcyan;
+}
